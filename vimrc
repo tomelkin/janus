@@ -13,7 +13,6 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
-set list listchars=tab:\ \ ,trail:·
 
 " Searching
 set hlsearch
@@ -147,3 +146,6 @@ set showcmd
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
+
+" Include my own vim config
+  source toms_vimrc

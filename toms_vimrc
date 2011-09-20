@@ -1,0 +1,12 @@
+
+source toms_rspec_bindings.vim
+source toms_keybindings.vim
+
+set cursorline
+set scrolloff=8
+set showmatch
+
+" TODO:
+" Install fuf buffer!
+" Install gundo, for file versioning
+
